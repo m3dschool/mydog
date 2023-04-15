@@ -72,8 +72,8 @@ st.markdown("어떤게 궁금하세요?")
 def get_api_key():
     input_text = st.text_input(label="OpenAI API Key ",
                                placeholder="Ex: sk-mfbC2tw8A8tun4...",
-                               key="openai_api_key_input",
-                               value="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")
+                               key="openai_api_key_input"
+                               )
     return input_text
 
 openai_api_key = get_api_key()
